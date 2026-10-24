@@ -9,6 +9,7 @@ BITS Pilani dual-degree student (B.E. Mechanical + M.Sc. Chemistry). I like turn
 | Call Insights | LLM call analysis (94% vs 62% baseline on 50 held-out calls) with an AI ops copilot | [live demo](https://call-insights-console.vercel.app) · [API](https://github.com/f20220970-debug/call-insights-api) |
 | E-commerce product analytics | Cohorts, RFM, A/B testing with sample-ratio checks | [repo](https://github.com/f20220970-debug/ecommerce-product-analytics) |
 | Credit risk model monitoring | PD scorecard + automated monitoring and Tableau dashboard | [repo](https://github.com/f20220970-debug/credit-risk-model-monitoring) · [dashboard](https://public.tableau.com/views/CreditRiskModelMonitoring/Dashboard) |
+| Growth metrics in SQL | 12 queries: cohorts, funnels, D1/D7/D30, growth accounting, CAC payback, A/B readout, attribution | [repo](https://github.com/f20220970-debug/growth-metrics-sql) |
 
 More: data pipelines, demand forecasting, portfolio backtesting, market sizing, under [Repositories](https://github.com/f20220970-debug?tab=repositories).
 
