@@ -1,5 +1,14 @@
 ### Hi, I'm Pavitra 👋
-BITS Pilani dual-degree student (B.E. Mechanical + M.Sc. Chemistry). I turn business questions into analysis, experiments, models and working products.
+BITS Pilani dual-degree student (B.E. Mechanical + M.Sc. Chemistry), interning in Client Success & Program Delivery at Goodera, Bengaluru. I turn business questions into analysis, experiments, models and working products.
+
+**Company case studies** (built for specific roles; simulated data shaped like each business, so they show method, not company facts)
+| Project | What it shows | Links |
+| --- | --- | --- |
+| noon funnel growth lab | 400K sessions: BNPL/COD checkout gap (40% vs 78% completion), growth-lever business cases, AI targeting (1.21x lift), A/B sample sizing | [repo](https://github.com/f20220970-debug/noon-funnel-growth) |
+| GeoIQ store agent lab | 240 Lenskart-style stores: revenue-gap root cause, revenue at risk, 7–30 day impact check (+6.9 pts, DiD), AI-agent answer evaluation | [repo](https://github.com/f20220970-debug/geoiq-store-agent-lab) |
+| Eureka Forbes service insights | 60K water-purifier customers: hard water drives tickets (38 → 123 per 100), AMC renewal 70% → 34% after failed visits, anomaly alert, Power BI-ready model | [repo](https://github.com/f20220970-debug/eurekaforbes-service-insights) |
+| WorkInSync adoption analytics | MoveInSync: per-account adoption funnel for 40 accounts, implementation-gap scoring, review teardown | [repo](https://github.com/f20220970-debug/workinsync-adoption-analytics) |
+| NoBroker strategy case | Competitive benchmarking, move-event funnel and service-attach model, category expansion ranking | [repo](https://github.com/f20220970-debug/nobroker-strategy-case) |
 
 **Growth & product**
 | Project | What it shows | Links |
@@ -9,6 +18,7 @@ BITS Pilani dual-degree student (B.E. Mechanical + M.Sc. Chemistry). I turn busi
 | Loyalty pilot playbook | Loyal customers in SQL (11.7% of customers = 38.3% of orders), surprise-and-delight pilot with test vs control | [repo](https://github.com/f20220970-debug/loyalty-pilot-playbook) |
 | Wingit product case | Category teardown, unit-economics model, PRD built into a working prototype | [repo](https://github.com/f20220970-debug/wingit-product-case) · [prototype](https://beauty-kit-recommender.vercel.app) |
 | E-commerce product analytics | Cohorts, RFM segments, A/B test with sample-ratio and power checks | [repo](https://github.com/f20220970-debug/ecommerce-product-analytics) |
+| Witness: AI shopping-agent audit | Product case + clickable prototype: influence receipts, drift alerts and guardrails for AI shopping agents | [repo](https://github.com/f20220970-debug/witness-agent-audit) |
 
 **Supply chain & operations**
 | Project | What it shows | Links |
@@ -30,6 +40,7 @@ BITS Pilani dual-degree student (B.E. Mechanical + M.Sc. Chemistry). I turn busi
 | --- | --- | --- |
 | Call Insights | LLM call analysis (94% vs 62% baseline on 50 held-out calls) with an AI ops copilot | [live demo](https://call-insights-console.vercel.app) · [API](https://github.com/f20220970-debug/call-insights-api) |
 | Trip data ETL pipeline | 5.97M records, 8 data-quality rules, partitioned PostgreSQL warehouse | [repo](https://github.com/f20220970-debug/trip-data-pipeline) |
+| Hyderabad housing analytics | Resale price prediction (gradient boosting) and locality clusters | [repo](https://github.com/f20220970-debug/hyderabad-housing-analytics) |
 
 More (portfolio backtest, candlestick engine): [all repositories](https://github.com/f20220970-debug?tab=repositories).
 
