@@ -1,48 +1,44 @@
-### Hi, I'm Pavitra 👋
-BITS Pilani dual-degree student (B.E. Mechanical + M.Sc. Chemistry), interning in Client Success & Program Delivery at Goodera, Bengaluru. I turn business questions into analysis, experiments, models and working products.
+# Hi, I'm Pavitra 👋
 
-**Company case studies** (built for specific roles; simulated data shaped like each business, so they show method, not company facts)
-| Project | What it shows | Links |
+Final-year dual-degree student at **BITS Pilani** (B.E. Mechanical + M.Sc. Chemistry, 2027), interning in Client Success & Program Delivery at **Goodera**, Bengaluru.
+
+**I build agents and growth systems that run in production:** with guardrails, evals, and impact measured through experiments.
+
+📫 f20220970@pilani.bits-pilani.ac.in · [LinkedIn](https://www.linkedin.com/in/pavitra-seth-824540310)
+
+---
+
+## Live and running
+
+| What | Live link | What it shows |
 | --- | --- | --- |
-| noon funnel growth lab | 400K sessions: BNPL/COD checkout gap (40% vs 78% completion), growth-lever business cases, AI targeting (1.21x lift), A/B sample sizing | [repo](https://github.com/f20220970-debug/noon-funnel-growth) |
-| GeoIQ store agent lab | 240 Lenskart-style stores: revenue-gap root cause, revenue at risk, 7–30 day impact check (+6.9 pts, DiD), AI-agent answer evaluation | [repo](https://github.com/f20220970-debug/geoiq-store-agent-lab) |
-| Eureka Forbes service insights | 60K water-purifier customers: hard water drives tickets (38 → 123 per 100), AMC renewal 70% → 34% after failed visits, anomaly alert, Power BI-ready model | [repo](https://github.com/f20220970-debug/eurekaforbes-service-insights) |
-| WorkInSync adoption analytics | MoveInSync: per-account adoption funnel for 40 accounts, implementation-gap scoring, review teardown | [repo](https://github.com/f20220970-debug/workinsync-adoption-analytics) |
-| NoBroker strategy case | Competitive benchmarking, move-event funnel and service-attach model, category expansion ranking | [repo](https://github.com/f20220970-debug/nobroker-strategy-case) |
+| **[LiveOps agent](https://github.com/f20220970-debug/chaos-liveops-agent)** | [Daily eval page](https://f20220970-debug.github.io/chaos-liveops-agent/) | Tunes a simulated puzzle game's difficulty: A/B tests each change, ships or rolls back inside retention and revenue guardrails, logs every decision. Re-evaluated **every day** on GitHub Actions; the Gemini ops note is number-checked. |
+| **[AI inbox triage agent](https://github.com/f20220970-debug/llm-triage-agent)** | [Daily eval page](https://f20220970-debug.github.io/llm-triage-agent/) | Claims guardrail → Gemini → local fallback → confidence router. On unseen wording: **20% → 72%** accuracy vs the local model. Refuses to publish when the LLM fails. |
+| **[Growth Console](https://github.com/f20220970-debug/soma-growth-console)** | [Streamlit app](https://soma-growth-console-ctm3kxywkrrytky4rbgrxr.streamlit.app/) | Founder planning tool: move growth levers and watch ARR, cash runway and Monte Carlo risk update. |
+| **[Call Insights](https://github.com/f20220970-debug/call-insights-console)** | [Live demo](https://call-insights-console.vercel.app) | FastAPI + Next.js app turning English/Hinglish calls into insights, with an ops agent. **94%** intent accuracy vs 62% baseline. |
 
-**Growth & product**
-| Project | What it shows | Links |
-| --- | --- | --- |
-| Quick-commerce retention in SQL | 3.35M grocery orders: habit categories, weekly habit window, retention; 4 growth experiments; FirstClub teardown + PRD | [repo](https://github.com/f20220970-debug/qcommerce-retention-sql) |
-| Growth metrics in SQL | 12 queries: cohorts, funnels, D1/D7/D30, growth accounting, CAC payback, A/B readout, attribution | [repo](https://github.com/f20220970-debug/growth-metrics-sql) |
-| Loyalty pilot playbook | Loyal customers in SQL (11.7% of customers = 38.3% of orders), surprise-and-delight pilot with test vs control | [repo](https://github.com/f20220970-debug/loyalty-pilot-playbook) |
-| Wingit product case | Category teardown, unit-economics model, PRD built into a working prototype | [repo](https://github.com/f20220970-debug/wingit-product-case) · [prototype](https://beauty-kit-recommender.vercel.app) |
-| E-commerce product analytics | Cohorts, RFM segments, A/B test with sample-ratio and power checks | [repo](https://github.com/f20220970-debug/ecommerce-product-analytics) |
-| Witness: AI shopping-agent audit | Product case + clickable prototype: influence receipts, drift alerts and guardrails for AI shopping agents | [repo](https://github.com/f20220970-debug/witness-agent-audit) |
+## Agents and experimentation
 
-**Supply chain & operations**
-| Project | What it shows | Links |
-| --- | --- | --- |
-| Dark-store ops lab | 19K real orders: slotting (-27% walking), Erlang C staffing, peak capacity, cycle counting, min/max replenishment | [repo](https://github.com/f20220970-debug/dark-store-ops-lab) |
-| Procurement spend analysis | Spend cube, supplier concentration, compliance, Excel savings model (5.4% of spend, base case) | [repo](https://github.com/f20220970-debug/procurement-spend-analysis) |
-| Demand forecasting & inventory | ABC-XYZ on 4,600 products, forecast back-test, safety stock at 90/95/99% service | [repo](https://github.com/f20220970-debug/demand-forecasting-inventory) |
-| EV aftermarket market sizing | INR 869 Cr (FY26) to ~5,627 Cr (FY31), Excel model and 12-slide deck | [repo](https://github.com/f20220970-debug/ev-aftermarket-sizing) |
+| Project | Highlight |
+| --- | --- |
+| [game-ua-budget-agent](https://github.com/f20220970-debug/game-ua-budget-agent) | Spends an ad budget on predicted D30 player value with Thompson sampling and guardrails: **+10.6%** revenue vs even split; caught a bidding incident in 1 day |
+| [retention-uplift-engine](https://github.com/f20220970-debug/retention-uplift-engine) | Uplift targeting **113 vs 69** extra orders per 1,000 vs churn-risk targeting; Kaplan–Meier; propensity-matched loyalty ROI |
+| [marketplace-pricing-experiments](https://github.com/f20220970-debug/marketplace-pricing-experiments) | Switchback carryover bias (37%), elasticity with clustered SEs, CUPED (−87% variance), constrained price optimiser |
+| [dynamic-pricing-bandits](https://github.com/f20220970-debug/dynamic-pricing-bandits) | Shared-model Thompson sampling: **98.4%** of oracle, 60% less regret than an A/B test |
+| [dispatch-matching-sim](https://github.com/f20220970-debug/dispatch-matching-sim) | Hungarian batching + forecast-led repositioning: fulfilment **64% → 84%** with half the fleet |
 
-**Risk & finance**
-| Project | What it shows | Links |
-| --- | --- | --- |
-| Credit risk modelling, monitoring & ECL | PD scorecard on 589K loans, automated monitoring, IFRS 9-style ECL and stress testing | [repo](https://github.com/f20220970-debug/credit-risk-model-monitoring) · [dashboard](https://public.tableau.com/views/CreditRiskModelMonitoring/Dashboard) |
-| Bank balance-sheet risk | EVE/NII under the six Basel rate shocks, LCR under stress, model checks | [repo](https://github.com/f20220970-debug/bank-alm-risk-model) |
-| Finance data controls | Sub-ledger to GL reconciliation, 6 controls, 939/939 injected breaks caught | [repo](https://github.com/f20220970-debug/finance-recon-controls) |
+## Business, growth and finance
 
-**Data & AI engineering**
-| Project | What it shows | Links |
-| --- | --- | --- |
-| Call Insights | LLM call analysis (94% vs 62% baseline on 50 held-out calls) with an AI ops copilot | [live demo](https://call-insights-console.vercel.app) · [API](https://github.com/f20220970-debug/call-insights-api) |
-| Trip data ETL pipeline | 5.97M records, 8 data-quality rules, partitioned PostgreSQL warehouse | [repo](https://github.com/f20220970-debug/trip-data-pipeline) |
-| Hyderabad housing analytics | Resale price prediction (gradient boosting) and locality clusters | [repo](https://github.com/f20220970-debug/hyderabad-housing-analytics) |
+| Project | Highlight |
+| --- | --- |
+| [soma-brokerage-ops-lab](https://github.com/f20220970-debug/soma-brokerage-ops-lab) | Insurance brokerage ops: speed-to-lead, carrier routing, renewals, AI triage eval · [founders' memo](https://github.com/f20220970-debug/soma-brokerage-ops-lab/blob/main/docs/Soma_Founders_Office_Memo.pdf) |
+| [arr-growth-model](https://github.com/f20220970-debug/arr-growth-model) | 24-month ARR and cash model in live Excel, matched to Python; Monte Carlo |
+| [revenue-pipeline-forecaster](https://github.com/f20220970-debug/revenue-pipeline-forecaster) | Deal-level Monte Carlo within 3.8% vs 83% error for stage-weighted CRM forecasts |
+| [porter-category-growth-lab](https://github.com/f20220970-debug/porter-category-growth-lab) | Pricing × fulfilment, partner acquisition and M1 retention, driver-support redesign |
+| [qcommerce-retention-sql](https://github.com/f20220970-debug/qcommerce-retention-sql) | 9 SQL analyses on 3.35M Instacart orders, growth experiments, FirstClub teardown |
+| [noon-funnel-growth](https://github.com/f20220970-debug/noon-funnel-growth) · [eurekaforbes-service-insights](https://github.com/f20220970-debug/eurekaforbes-service-insights) · [nobroker-strategy-case](https://github.com/f20220970-debug/nobroker-strategy-case) | Funnel, service-analytics and strategy case studies |
+| [finance-recon-controls](https://github.com/f20220970-debug/finance-recon-controls) · [credit-risk-model-monitoring](https://github.com/f20220970-debug/credit-risk-model-monitoring) · [trip-data-pipeline](https://github.com/f20220970-debug/trip-data-pipeline) | Reconciliation controls, credit-risk monitoring, ETL over 5.97M trips |
 
-More (portfolio backtest, candlestick engine): [all repositories](https://github.com/f20220970-debug?tab=repositories).
+<sub>Company-specific projects use simulated or public data and say so in their READMEs; they show method, not company facts.</sub>
 
-**Tools:** SQL · Python · Excel · Tableau · FastAPI · Next.js · LLMs and AI agents
-📫 [LinkedIn](https://www.linkedin.com/in/pavitra-seth-824540310)
+**Tools:** Python · SQL · NumPy/pandas/scikit-learn · Gemini API · FastAPI · Streamlit · GitHub Actions · Excel · Claude Code
